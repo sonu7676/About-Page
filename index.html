@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Use | NayaaPaisa</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #1e293b, #334155);
+    padding: 35px 20px; /* reduced height */
+    text-align: center;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-size: 32px; /* slightly smaller */
+    margin-bottom: 6px;
+}
+
+/* SECTION 1 – CARDS */
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+    transition: 0.3s ease;
+    text-align: justify;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card h3 {
+    color: #1e40af;
+    margin-bottom: 10px;
+}
+
+/* FULL WIDTH SECTION */
+.full-width {
+    background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') center/cover no-repeat;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.full-content {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.full-text h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.full-text p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.feature-box {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 14px;
+    backdrop-filter: blur(6px);
+}
+
+.feature-box h4 {
+    margin-bottom: 10px;
+}
+/* ONLY for the new tall card section */
+.tall-section-wrapper {
+    max-width: 1100px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* BIG CONTAINER - NEW BACKGROUND */
+.big-wrapper {
+    max-width: 1300px;
+    margin: 70px auto;
+    padding: 50px;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #020617);
+    border-radius: 26px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* FLEX CONTAINER */
+.inner-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+}
+
+/* CARD DESIGN */
+.tall-card {
+    width: 5cm;
+    height: 10cm;
+    background: linear-gradient(160deg, #111827, #1f2937);
+    border-radius: 20px;
+    padding: 26px 22px;
+    color: #e5e7eb;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(163, 159, 159, 0.5);
+    transition: all 0.35s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* GLOW EFFECT */
+.tall-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top, rgba(231, 226, 226, 0.15), transparent 70%);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.tall-card:hover::before {
+    opacity: 1;
+}
+
+/* HOVER EFFECT */
+.tall-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+}
+
+/* ICON */
+.icon {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+/* TEXT */
+.tall-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #e5e7eb;
+}
+
+.tall-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e3e4e9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .inner-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tall-card {
+        width: 90%;
+        max-width: 320px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Terms of Use</h1>
+    <p>Clear, Transparent & Secure Usage Policy</p>
+</div>
+
+<!-- 3 COLUMN SECTION -->
+<div class="section">
+    <div class="grid">
+        <div class="card">
+            <h3>1. Platform Usage</h3>
+            <p>
+                You may access our Site through a computer or mobile device. These Terms of Use govern your access to and use of the Platform, including all products, services, and features offered.
+
+By accessing or using the Platform, you acknowledge and agree to be bound by these Terms of Use, together with our Privacy Policy, Shipping Policy, and Cancellation, Refund & Return Policy.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>2. Account Responsibility</h3>
+            <p>
+                This Site is for adults only. Minors may access it only under guardian supervision. NayaaPaisa does not knowingly collect information from minors.
+
+You are responsible for your account and password. Any information you provide is not confidential or third-party protected.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>3. Product & Services</h3>
+            <p>
+                The products and services available on the Platform, and the samples, if any, that Platform may provide you, are for your personal and/or professional use only. The products or services, or samples thereof, which you may receive from us, shall not be sold or resold for any/commercial reasons.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- FULL WIDTH SECTION -->
+<div class="full-width">
+    <div class="full-content">
+        <div class="full-text">
+            <h2>Secure Shopping & Trusted Platform</h2>
+            <p>
+                NayaaPaisa ensures a safe, reliable, and transparent shopping
+                experience. All transactions are encrypted and your data is
+                protected using industry-grade security protocols.
+            </p>
+            <p>
+                Any misuse, fraudulent activity, or policy violation may lead to
+                immediate suspension or legal action.
+            </p>
+        </div>
+
+        <div class="feature-box">
+            <h4>Why Choose NayaaPaisa?</h4>
+            <ul>
+                <li>✔ Secure payments & data protection</li>
+                <li>✔ Transparent refund & return policy</li>
+                <li>✔ Verified sellers & products</li>
+                <li>✔ 24/7 customer assistance</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- BIG CARD CONTAINER -->
+<div class="big-wrapper">
+
+    <div class="inner-cards">
+
+        <div class="tall-card">
+            <div class="icon">💳</div>
+            <h3>Payments</h3>
+            <p>
+                Secure and encrypted transactions with multiple payment options
+                for a smooth checkout experience.
+            </p>
+        </div>
+
+        <div class="tall-card">
+            <div class="icon">📦</div>
+            <h3>Shipping</h3>
+            <p>
+                Orders are processed promptly and shipped next day (Mon–Sat). Delivery: India 2–5 business days, international 7–10 business days. Customers are responsible for any customs or import duties. Please refer to our Shipping Policy for details.
+            </p>
+        </div>
+
+        <div class="tall-card">
+            <div class="icon">🔁</div>
+            <h3>Warranty </h3>
+            <p>
+                The Site is provided “as is.” NayaaPaisa and its affiliates make no warranties and are not liable for any damages, including data loss, viruses, or third-party links. Claims must be brought within one year. Termination of use is your sole remedy. This disclaimer is part of these Terms of Use.
+            </p>
+        </div>
+
+        <div class="tall-card">
+            <div class="icon">🔐</div>
+            <h3>Security</h3>
+            <p>
+                You are prohibited from violating or attempting to breach the security of the Site, including: accessing unauthorized data or accounts, probing or testing systems without permission, interfering with services, sending viruses or spam, and forging email headers. Violations may lead to civil or criminal liability.
+            </p>
+        </div>
+
+        <div class="tall-card">
+            <div class="icon">📞</div>
+            <h3>Support</h3>
+            <p>
+                Email: contact@nayaapaisa.com
+
+International Email: contact@nayaapaisa.com
+
+Phone: +91-9036460055
+
+Contact Hours:
+Mon–Sat: 9:00 a.m.–7:00 p.m.
+Sun: 10:00 a.m.–7:00 p.m.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+
+       
+
+    </div>
+</div>
+</body>
+</html>
